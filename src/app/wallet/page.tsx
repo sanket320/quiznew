@@ -20,7 +20,7 @@ export default function WalletPage() {
 	const router = useRouter();
 
 	useEffect(() => {
-		const savedCoins = localStorage.getItem("quizwinz-coins");
+		const savedCoins = localStorage.getItem("IG Mart-coins");
 		setCoins(Number.parseInt(savedCoins || "0"));
 
 		// Mock transaction history

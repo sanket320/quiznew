@@ -208,8 +208,8 @@ export default function QuizPage() {
     const bonusPerCorrect = 100
     const totalReward = baseReward + correctAnswers * bonusPerCorrect
 
-    const currentCoins = Number.parseInt(localStorage.getItem("quizwinz-coins") || "0")
-    localStorage.setItem("quizwinz-coins", (currentCoins + totalReward).toString())
+    const currentCoins = Number.parseInt(localStorage.getItem("IG Mart-coins") || "0")
+    localStorage.setItem("IG Mart-coins", (currentCoins + totalReward).toString())
 
     router.push("/home")
   }

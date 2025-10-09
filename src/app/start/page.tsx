@@ -378,7 +378,7 @@ export default function HomePage() {
 	const scrollContainerRef = useRef<HTMLDivElement>(null);
 
 	useEffect(() => {
-		const savedCoins = localStorage.getItem("quizwinz-coins");
+		const savedCoins = localStorage.getItem("IG Mart-coins");
 		setCoins(Number.parseInt(savedCoins || "0"));
 	}, []);
 
@@ -391,7 +391,7 @@ export default function HomePage() {
 		if (coins >= entryFee) {
 			const newCoins = coins - entryFee;
 			setCoins(newCoins);
-			localStorage.setItem("quizwinz-coins", newCoins.toString());
+			localStorage.setItem("IG Mart-coins", newCoins.toString());
 			router.push(`/quiz/${quizId}`);
 		} else {
 			setShowAdModal(true);
@@ -401,7 +401,7 @@ export default function HomePage() {
 	const handleAdComplete = () => {
 		const newCoins = coins + 100;
 		setCoins(newCoins);
-		localStorage.setItem("quizwinz-coins", newCoins.toString());
+		localStorage.setItem("IG Mart-coins", newCoins.toString());
 	};
 
 	const scrollLeft = () => {
@@ -434,7 +434,7 @@ export default function HomePage() {
 					</button>
 
 					<h1 className='text-xl font-bold text-orange-400'>
-						Quizwinz
+						IG Mart
 					</h1>
 
 					<div className='flex items-center gap-2 bg-slate-800 px-3 py-2 rounded-full'>

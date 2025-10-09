@@ -8,26 +8,26 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	title: {
 		default: "IG Mart - Play and Win Rewards",
-		template: "%s | Quizwinz",
+		template: "%s | IG Mart",
 	},
 	description:
-		"Play engaging quizzes and earn reward coins. Test your knowledge and win exciting prizes with Quizwinz.",
+		"Play engaging quizzes and earn reward coins. Test your knowledge and win exciting prizes with IG Mart.",
 	keywords:
 		"quiz, rewards, play, win, quizzes, knowledge, games, online quizzes",
-	authors: [{ name: "Quizwinz" }],
-	creator: "Quizwinz",
+	authors: [{ name: "IG Mart" }],
+	creator: "IG Mart",
 	openGraph: {
-		title: "Quizwinz - Play and Win Rewards",
+		title: "IG Mart - Play and Win Rewards",
 		description:
-			"Play engaging quizzes and earn reward coins. Test your knowledge and win exciting prizes with Quizwinz.",
-		url: "https://quizwinz.com",
-		siteName: "Quizwinz",
+			"Play engaging quizzes and earn reward coins. Test your knowledge and win exciting prizes with IG Mart.",
+		url: "https://ig-mart.shop",
+		siteName: "IG Mart",
 		images: [
 			{
-				url: "https://quizwinz.com/og-image.png",
+				url: "https://ig-mart.shop/og-image.png",
 				width: 1200,
 				height: 630,
-				alt: "Quizwinz Logo",
+				alt: "IG Mart Logo",
 			},
 		],
 		locale: "en_US",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: "https://quizwinz.com",
+		canonical: "https://ig-mart.shop",
 	},
 };
 
@@ -82,7 +82,7 @@ export default function RootLayout({
 					crossOrigin='anonymous'
 					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXXXXX'
 				/>
-				<meta name='application-name' content='Quizwinz' />
+				<meta name='application-name' content='IG Mart' />
 				<meta name='format-detection' content='telephone=no' />
 				<meta name='theme-color' content='#000000' />
 				<link rel='shortcut icon' href='/favicon.ico' />

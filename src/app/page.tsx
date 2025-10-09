@@ -163,10 +163,10 @@ export default function WelcomePage() {
 
 					// Save initial coins
 					const currentCoins = Number.parseInt(
-						localStorage.getItem("quizwinz-coins") || "0"
+						localStorage.getItem("IG Mart-coins") || "0"
 					);
 					localStorage.setItem(
-						"quizwinz-coins",
+						"IG Mart-coins",
 						(currentCoins + reward).toString()
 					);
 
