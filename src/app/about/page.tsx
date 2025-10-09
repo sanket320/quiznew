@@ -11,16 +11,16 @@ export default function AboutPage() {
           <Link href="/home" className="p-2 hover:bg-slate-800 rounded-lg transition-colors">
             <ArrowLeft className="w-6 h-6 text-slate-300" />
           </Link>
-          <h1 className="text-2xl font-bold text-white">About Quizwinz</h1>
+          <h1 className="text-2xl font-bold text-white">About IG Mart</h1>
         </div>
 
         <Card className="bg-slate-800 border-slate-700">
           <CardHeader>
-            <CardTitle className="text-orange-400">Welcome to Quizwinz</CardTitle>
+            <CardTitle className="text-orange-400">Welcome to IG Mart</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4 text-slate-300">
             <p>
-              Quizwinz is an engaging quiz platform where knowledge meets rewards. Test your skills across various
+              IG Mart is an engaging quiz platform where knowledge meets rewards. Test your skills across various
               categories and earn coins for every correct answer!
             </p>
 

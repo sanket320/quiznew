@@ -33,7 +33,7 @@ export default function PrivacyPage() {
 								Information We Collect
 							</h3>
 							<p>
-								Quizwinz is designed to work without requiring
+								IG Mart is designed to work without requiring
 								personal information. We only collect:
 							</p>
 							<ul className='list-disc list-inside space-y-1 mt-2'>
@@ -130,7 +130,7 @@ export default function PrivacyPage() {
 							<p>
 								If you have any questions about this privacy
 								policy, please contact us at
-								support@quizwinz.com.
+								statuskatta123@gmail.com.
 							</p>
 						</section>
 

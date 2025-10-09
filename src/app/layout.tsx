@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: {
-		default: "Quizwinz - Play and Win Rewards",
+		default: "IG Mart - Play and Win Rewards",
 		template: "%s | Quizwinz",
 	},
 	description:

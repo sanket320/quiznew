@@ -39,7 +39,7 @@ export default function ContactPage() {
 										Email
 									</h3>
 									<p className='text-slate-300'>
-										support@quizwinz.com
+										statuskatta123@gmail.com
 									</p>
 								</div>
 							</div>
