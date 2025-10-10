@@ -56,12 +56,12 @@ export default function RootLayout({
 			<head suppressHydrationWarning>
 				<meta
 					name='google-site-verification'
-					content='YOUR_GOOGLE_SITE_VERIFICATION_CODE'
+					content='<meta name="google-site-verification" content="6P4qqz-YgbZOGN9oL0l-TUualoBQRAL_Z76Xt4dcIpU" />'
 				/>
 				{/* Google Analytics */}
 				<script
 					async
-					src='https://www.googletagmanager.com/gtag/js?id=GOOGLE_ANALYTICS_ID'
+					src='https://www.googletagmanager.com/gtag/js?id=G-ELV27C0DN'
 				/>
 				<script
 					dangerouslySetInnerHTML={{
@@ -69,7 +69,7 @@ export default function RootLayout({
 							window.dataLayer = window.dataLayer || [];
 							function gtag(){dataLayer.push(arguments);}
 							gtag('js', new Date());
-							gtag('config', 'GOOGLE_ANALYTICS_ID', {
+							gtag('config', 'G-ELV27C0DN', {
 								'page_path': window.location.pathname,
 							});
 						`,
