@@ -211,7 +211,7 @@ export default function QuizPage() {
     const currentCoins = Number.parseInt(localStorage.getItem("IG Mart-coins") || "0")
     localStorage.setItem("IG Mart-coins", (currentCoins + totalReward).toString())
 
-    router.push("/home")
+    router.push("/start")
   }
 
   if (quizCompleted) {
