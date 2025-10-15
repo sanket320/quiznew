@@ -82,6 +82,13 @@ export default function RootLayout({
 					crossOrigin='anonymous'
 					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8836907612634895'
 				/>
+
+				<script
+					async
+					crossOrigin='anonymous'
+					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2899542573732916'
+				/>
+
 				<meta name='application-name' content='IG Mart' />
 				<meta name='format-detection' content='telephone=no' />
 				<meta name='theme-color' content='#000000' />
